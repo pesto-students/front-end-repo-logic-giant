@@ -1,0 +1,44 @@
+.landing-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .left-content {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .right-content {
+    flex: 1;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  .login-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
